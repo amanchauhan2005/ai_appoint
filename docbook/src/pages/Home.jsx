@@ -3,7 +3,6 @@ import Header from '../components/Header'
 import Specialitymenu from '../components/Specialitymenu'
 import Topdoctor from '../components/Topdoctor'
 import Banner from '../components/Banner'
-
 function Home() {
   return (
     <div>

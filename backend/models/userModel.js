@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 const userSchema=new mongoose.Schema({
+    
     name:{
         type:String,
         required:true,
@@ -26,7 +27,7 @@ const userSchema=new mongoose.Schema({
         default:'Not Selected',
     },
     dob:{
-        type:Object,
+        type:String,
         default:'Not Selected'
     },
     phone:{
@@ -34,4 +35,4 @@ const userSchema=new mongoose.Schema({
         default:'0000000000'
     }
 })
- export const userModel=mongoose.model('secUser',userSchema)
+ export const userModel=mongoose.model('users',userSchema)

@@ -57,7 +57,7 @@ import 'dotenv/config'
      console.log({name,email,password,speciality,degree,experience,about,fees,address},imageFile)
     } catch (error) {
         console.log(error)
-        res.json({sucess2:false,message:error.message})
+        res.json({sucess:false,message:error.message})
     }
  }
  //API FOR admin login
